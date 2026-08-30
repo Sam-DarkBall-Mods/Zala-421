@@ -2,26 +2,25 @@
 
 [![CI](https://github.com/Sam-DarkBall-Mods/Zala-421/actions/workflows/ci.yml/badge.svg)](https://github.com/Sam-DarkBall-Mods/Zala-421/actions/workflows/ci.yml)
 
-Zala 421 UAV and tripod launcher system for Arma 3.
+Zala 421 adds UAVs and tripod launchers for BLUFOR, OPFOR and Independent. The
+package also contains a tripod bag, an ammunition box, reload handling and
+separate displays for the pilot and gunner.
 
 ## Requirements
 
 - Arma 3 2.22 or newer
-- Additional runtime dependencies declared by `CfgPatches`
 
-## Development
+## Building
 
 ```bash
+python3 -B -m unittest discover -s tests -p "test_*.py" -v
 hemtt check
 hemtt build --no-bin
-python3 -B -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-Legacy `CfgPatches`, function names, virtual PBO prefixes, and release PBO
-filenames are compatibility contracts and must not change in a patch release.
+The `zala421` prefix and the current game class names remain unchanged.
 
 ## License
 
-SQF, Arma configuration, and tooling are GPL-2.0-or-later. Original Arma
-models, textures, materials, animations, and audio are APL-SA. See
-[LICENSES.md](LICENSES.md) and closer notices.
+Code and configs use GPL-2.0-or-later. Original models, textures, materials and
+audio use APL-SA. See [LICENSES.md](LICENSES.md).
