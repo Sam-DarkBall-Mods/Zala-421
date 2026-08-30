@@ -21,7 +21,11 @@ class CfgPatches
 		{
 		};
 		requiredVersion = 2.22;
-		requiredAddons[]={};
+		requiredAddons[]=
+		{
+			"cba_common",
+			"cba_ui"
+		};
 		name="zala421";
 		author="Sam";
 	};
