@@ -11,8 +11,7 @@ class CfgPatches
 			"zala421_tripod_launcher_o",
 			"zala421_tripod_launcher_i",
 			"zala421_AmmoBox",
-			"zala421_Tripod_Bag_Support",
-			"zala421_dummy_mag"
+			"zala421_Tripod_Bag_Support"
 		};
 		weapons[]=
 		{
@@ -21,7 +20,7 @@ class CfgPatches
 		ammo[]=
 		{
 		};
-		requiredVersion=1.38;
+		requiredVersion = 2.22;
 		requiredAddons[]={};
 		name="zala421";
 		author="Sam";

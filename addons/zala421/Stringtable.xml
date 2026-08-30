@@ -27,11 +27,6 @@
         <English>OFF</English>
         <Russian>ВЫКЛ</Russian>
       </Key>
-      <Key ID="STR_zala421_speed">
-        <Original>SPD</Original>
-        <English>SPD</English>
-        <Russian>СКОР</Russian>
-      </Key>
       <Key ID="STR_zala421_altitude">
         <Original>ALT</Original>
         <English>ALT</English>
